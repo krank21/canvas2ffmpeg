@@ -23,7 +23,7 @@ function ondata(data, type) {
 
 frame = 0;
 
-port = 8081;
+var port = process.env.PORT || 1337;
 
 server = http.createServer(function (request, response) {
 	switch (request.url) {
