@@ -1,0 +1,22 @@
+{
+  "name": "canvas2ffmpeg",
+  "version": "0.0.1",
+  "engines": {
+    "node": "6.9.1",
+    "npm": "3.10.8"
+  },
+  "main": "pipeserver.js",
+  "scripts": {
+    "start": "node pipeserver.js"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "fluent-ffmpeg": "^2.1.0",
+    "node-horseman": "^3.2.0",
+    "socket.io": "^1.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krank21/canvas2ffmpeg.git"
+  }
+}
